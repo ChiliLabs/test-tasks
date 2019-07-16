@@ -6,7 +6,7 @@ Main Objective:
   - Create a gif search application using Giphy service;
 
 Requirements:
-  - Swift 4;
+  - Swift 5;
   - RxSwift
   - Auto search - search requests performed after a 0.5 second delay after text input has stoped;
   - Results displayed in a UICollectionView;
