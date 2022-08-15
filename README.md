@@ -4,6 +4,8 @@ You can find the requirements for the positions here:
 
 * [iOS developer](ios_developer.md)
 
+* [Flutter developer](flutter_developer.md)
+
 * [Frontend developer](frontend_developer.md)
 
 * [Backend developer](backend_developer.md)
