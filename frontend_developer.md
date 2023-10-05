@@ -12,13 +12,13 @@
 - The page should be adaptive - looking good both on desktop and mobile
 
 ### Requirements:
-- Use at least one Class component
 - Use at least one Functional component
 - Use each of the following React hooks at least once: useEffect, useState
 
 ### Bonus points:
-- For styling preferably use the "styled-components" library
+- For styling preferably use the "tailwindcss" or "styled-components" library
 - Build the project using Typescript
+- Implement the project using Next.js
 
 ### Notes:
 - Some requirement points can be skipped if you feel like they are too complex at the time. Please provide a comment in the code about what has been skipped. We do expect all or most of the requirements implemented if applying for a more senior position.
