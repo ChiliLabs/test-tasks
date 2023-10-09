@@ -14,7 +14,7 @@
   - It should display product: name, price, category and description
 
 ### Requirements:
-- Project should be written in Typescript
+- Project should be written in Typescript and React.js
 - All pages should have responsive designs - looking good both on desktop and mobile
 
 ### Bonus points:
