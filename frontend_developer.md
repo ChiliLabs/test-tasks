@@ -7,7 +7,7 @@
 - Create a product list page
   - Products should be fetched using the endpoint https://run.mocky.io/v3/b54fe93f-f5a1-426b-a76c-e43d246901fd
   - The page should have a search input that filters products without page refresh
-  - Search should be performed once the user stops writing
+  - Search should be performed automatically once the user stops writing
   - Each product should display: name, price and category
   - Clicking on a product should redirect to product details page
 - Product details page
