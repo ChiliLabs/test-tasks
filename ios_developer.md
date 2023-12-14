@@ -31,8 +31,5 @@
 - Documentation (https://developers.giphy.com/docs/api/)
 - UI up to interpretation - only things mentioned in requirements are mandatory;
 
-### ** Important **
-- It is ok to re-use parts of code from other sources. But it is important to understand it and to be able to explain what it does, as well as to attribute the original author.
-
 ### Contact
 - Please reply either directly to the e-mail that was sent to you or to studio@chililabs.io. The task must be attached as a link to a repository with public access. If you haven’t done so previously, please also attach your CV.
