@@ -8,10 +8,11 @@
 - Use Swift;
 - Auto search - search requests performed after a minor delay after the user stops typing;
 - Loading more results when scrolling;
-- Unit tests for more important logic (100% coverage not required, just for parts that you would feel like are most important);
 - Comments on code that could need an additional explanation;
 - Networking layer without using any external 3rd party libraries (like Alamofire);
+- Vertical & horizontal orientation support;
 - Error handling;
+- Unit tests - as much as you see fit;
   
 ## UI
 - At least 2 views sourced by data from Giphy;
