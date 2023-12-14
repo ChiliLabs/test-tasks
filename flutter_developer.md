@@ -1,25 +1,36 @@
 # Flutter developer
 
-## Main task:
-Create an application to search for GIF images using Giphy API (https://developers.giphy.com/docs/api/endpoint#search).
+## The Task:
+- Create a gif search application using the Giphy service;
 
-### Requirements:
-- Implement "live search" - i.e. request is sent in N milliseconds (for example 300) after the user has entered some input;
-- Results are displayed in the list or grid of items;
-- Request pagination - load enough items to populate the list and load more items every time the user scrolls to the end of the list (limit/offset);
-- UI can be very simple but should be responsive, snappy, and implemented according to the platform guidelines;
+### Primary Requirements:
+## Technical
+- Primary platforms - iOS & Android;
+- Auto search - requests to retrieve Gif information from the service are made automatically with a small delay after user stops typing;
+- Pagination - loading more results when scrolling;
+- Vertical & horizontal orientation support;
+- Error handling;
+- Unit tests - as much as you see fit;
+- Network availability handling;
+- Comments on code that could need an additional explanation;
+  
+## UI
+- Responsive & matching platform guidelines;
+- At least 2 views sourced by data from Giphy;
+- Results are displayed in a grid;
+- Clicking on a grid item should navigate to a detailed Gif view.
+- Loading indicators;
+- Error display;
 
-###  Bonus points will be given for:
-- Loading more results "seamlessly" before the user reaches the last item in the list so (at least on a decent network connection) the scrolling is not interrupted by the next page load;
-- Using state management approaches or libraries such as BLoC (flutter_bloc), Riverpod or others;
+### Bonus points:
 - Separating business logic from the UI;
-- Unit tests (we don't expect 100% coverage but rather see how do you approach unit testing)
+- Using state management approaches or libraries such as BLoC (flutter_bloc), Riverpod or others;
+- Using an understandable architecture pattern;
 
 ### Notes:
-- Some requirement points can be skipped if you feel like they are too complex at the time. Please provide a comment in the code about what has been skipped. We do expect all or most of the requirements implemented if applying for a more senior position.
-
-### ** Important **
-- It is ok to re-use parts of code from other sources. But it is important to understand it and to be able to explain what it does, as well as to attribute the original author.
+- No time limit. Quality > Speed;
+- Documentation (https://developers.giphy.com/docs/api/)
+- UI up to interpretation - only things mentioned in requirements are mandatory;
 
 ### Contact
-- Please reply either directly to the e-mail that was sent to you or to studio@chililabs.io. The task can be attached as a link to a repository or an archive. If you haven’t done so previously, please also attach your CV.
+- Please reply either directly to the e-mail that was sent to you or to studio@chililabs.io. The task must be attached as a link to a repository with public access. If you haven’t done so previously, please also attach your CV.
