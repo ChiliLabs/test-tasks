@@ -31,6 +31,7 @@
 - No time limit. Quality > Speed;
 - Documentation (https://developers.giphy.com/docs/api/)
 - UI up to interpretation - only things mentioned in requirements are mandatory;
+- Flutter version MUST be noted in repository ReadMe file;
 
 ### Contact
 - Please reply either directly to the e-mail that was sent to you or to studio@chililabs.io. The task must be attached as a link to a repository with public access. If you haven’t done so previously, please also attach your CV.
