@@ -24,6 +24,8 @@
 ### Bonus points:
 - Using reactive programming approach (RxSwift / Combine);
 - Using of an architecture pattern;
+- Network availablity handling;
+- View navigation is handled separately from controller code (a navigation pattern);
 
 ### Notes:
 - 3rd party frameworks are only allowed to help display individual gifs & in RxSwift use case;
