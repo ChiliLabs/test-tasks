@@ -32,6 +32,7 @@
 - No time limit. Quality > Speed;
 - Documentation (https://developers.giphy.com/docs/api/)
 - UI up to interpretation - only things mentioned in requirements are mandatory;
+- If any of the primary requirements cannot be completed, it must be commented what solutions were attempted and what problems were encountered.
 
 ### Contact
 - Please reply either directly to the e-mail that was sent to you or to studio@chililabs.io. The task must be attached as a link to a repository with public access. If you haven’t done so previously, please also attach your CV.
