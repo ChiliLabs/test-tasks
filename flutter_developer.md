@@ -11,8 +11,6 @@
 - Vertical & horizontal orientation support;
 - Error handling;
 - Unit tests - as much as you see fit;
-- Comments on code that could need an additional explanation;
-- Business logic separate from the UI logic;
   
 ## UI
 - Responsive & matching platform guidelines;
