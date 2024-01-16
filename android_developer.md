@@ -1,24 +1,35 @@
 # Android developer
 
-## Main task:
-Create an application to search for GIF images using Giphy API (https://developers.giphy.com/docs/api/endpoint#search).
+## The Task:
+- Create a gif search application using the Giphy service;
 
-### Requirements:
-- Implement "live search" - i.e. request is sent in N milliseconds (for example 300) after the user has entered some input;
-- Results are displayed in the list or grid of items;
-- Request pagination - load enough items to populate the list and load more items every time the user scrolls to the end of the list (limit/offset);
-- UI can be very simple but should be responsive, snappy, and implemented according to the platform guidelines;
+### Primary Requirements:
+## Technical
+- Use Kotlin
+- Auto search - search requests performed after a minor delay after the user stops typing;
+- Pagination - loading more results when scrolling;
+- Vertical & horizontal orientation support;
+- Error handling;
+- Unit tests - as much as you see fit;
+  
+## UI
+- At least 2 views sourced by data from Giphy;
+- Results are displayed in a grid;
+- Clicking on a grid item should open an Activity with a more detailed gif;
+- Loading indicators;
+- Error display;
 
-###  Bonus points will be given for:
-- Using modern Android development approaches and libraries such as Android MVVM, Coroutines, Flow, Hilt or any other jetpack compose modules;
-- Loading more results "seamlessly" before the user reaches the last item in the list so (at least on a decent network connection) the scrolling is not interrupted by the next page load;
-- Unit tests (we don't expect 100% coverage but rather see how do you approach unit testing)
+### Bonus points:
+- Using modern Android development approaches and libraries such as Coroutines, Flows, Jetpack Compose;
+- Using of an architecture pattern;
+- Network availablity handling;
+- Make use of DI, can use a framework of your liking or a custom solution;
 
 ### Notes:
-- Some requirement points can be skipped if you feel like they are too complex at the time. Please provide a comment in the code about what has been skipped. We do expect all or most of the requirements implemented if applying for a more senior position.
-
-### ** Important **
-- It is ok to re-use parts of code from other sources. But it is important to understand it and to be able to explain what it does, as well as to attribute the original author.
+- No time limit. Quality > Speed;
+- Documentation (https://developers.giphy.com/docs/api/)
+- UI up to interpretation - only things mentioned in requirements are mandatory;
+- If any of the primary requirements cannot be completed, it must be commented what solutions were attempted and what problems were encountered.
 
 ### Contact
 - Please reply either directly to the e-mail that was sent to you or to studio@chililabs.io. The task must be attached as a link to a repository with public access. If you haven’t done so previously, please also attach your CV.
