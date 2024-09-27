@@ -22,6 +22,7 @@
 ### Bonus points:
 - Using modern Android development approaches and libraries such as Coroutines, Flows, Jetpack Compose;
 - Using of an architecture pattern;
+- Using single-acivity architecture;
 - Network availablity handling;
 - Make use of DI, can use a framework of your liking or a custom solution;
 
