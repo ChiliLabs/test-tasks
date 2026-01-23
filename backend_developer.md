@@ -12,8 +12,9 @@ Create a RESTful service with the following functionality:
 - Generate an easy-to-use and understand documentation for the API (Swagger UI, Apiary and the like).
 
 ### Tech stack:
-Java / Kotlin, Spring Boot, SpringDoc is a good baseline, if you don't know what to pick. Any Relational or NoSQL database will do.
-Can use other languages and frameworks if you are more familiar with them but please do not choose something exotic. While your fully-featured COBOL webservice might be extremely impressive, we probably will not enjoy reviewing your code :)
+Java / Kotlin, Spring Boot, SpringDoc is a good baseline if you don't know what to pick, since this is what we use the most. Any Relational or NoSQL database will do.
+
+Can use other OO, strongly typed languages or other frameworks if you are more familiar with them but please do not choose something exotic. While your fully-featured COBOL webservice might be extremely impressive, we probably will not enjoy reviewing your code :)
 
 ### Time limit:
 There is no time limitation for the task, we favour quality over speed.
