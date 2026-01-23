@@ -6,7 +6,7 @@ Create a RESTful service with the following functionality:
 - Login with identifier and password. Auth token(s) must be returned on success.
 - Profile retrieval, returning current users information.
 - Avatar upload (requires auth). Uploaded image URL must be returned on success.
-- Socket connection endpoint (requires auth). After connecting to it client must receive messages when the avatar is changed.
+- WebSocket connection endpoint (requires auth). After connecting to it client must receive messages when the avatar is changed.
 - User deletion (requires auth). Success must be returned if a user is fully deleted (registration and avatar). All socket connections must stop, the user must not be able to log in with any previously issued auth tokens.
 - Use stateless authentication (JWT).
 - Use [JSend](https://github.com/omniti-labs/jsend) for response format.
@@ -19,13 +19,14 @@ The API is expected to have the following endpoints accepting an returning _at l
 - `GET /api/user` returning `identifier`, `avatarUrl` and `registeredAt`
 - `POST /api/user/avatar` accepting an `avatar` file, returning an `avatarUrl`
 - `DELETE /api/user`
+- `ws://{host}/ws` accepting websocket connections
 - (optional): `POST /api/refresh` returning an `accessToken` and `refreshToken`
 - (optional): `GET /{avatarUrl}` returning the image
 
 ### Tech stack:
 Java / Kotlin, Spring Boot, SpringDoc is a good baseline if you don't know what to pick, since this is what we use the most. Any Relational or NoSQL database will do.
 
-Can use other OO, strongly typed languages or other frameworks if you are more familiar with them but please do not choose something exotic. While your fully-featured COBOL webservice might be extremely impressive, we probably will not enjoy reviewing your code :)
+Can use other OO, strongly typed languages or other frameworks if you are more familiar with them but please do not choose something exotic. While your fully-featured COBOL webservice might be extremely impressive, we probably will not enjoy reviewing your code 🫠
 
 ### Time limit:
 There is no time limitation for the task, we favour quality over speed.
